@@ -16,6 +16,9 @@
 		D4203DB22A12B29500F9BA03 /* dolofo_nosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4203DB12A12B29500F9BA03 /* dolofo_nosTests.swift */; };
 		D4203DBC2A12B29500F9BA03 /* dolofo_nosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4203DBB2A12B29500F9BA03 /* dolofo_nosUITests.swift */; };
 		D4203DBE2A12B29500F9BA03 /* dolofo_nosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4203DBD2A12B29500F9BA03 /* dolofo_nosUITestsLaunchTests.swift */; };
+		D4203DCB2A12B3DB00F9BA03 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4203DCA2A12B3DB00F9BA03 /* User.swift */; };
+		D4203DCD2A12B42500F9BA03 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4203DCC2A12B42500F9BA03 /* Team.swift */; };
+		D4203DCF2A12B46900F9BA03 /* RoundControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4203DCE2A12B46900F9BA03 /* RoundControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		D4203DB72A12B29500F9BA03 /* dolofónosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dolofónosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4203DBB2A12B29500F9BA03 /* dolofo_nosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dolofo_nosUITests.swift; sourceTree = "<group>"; };
 		D4203DBD2A12B29500F9BA03 /* dolofo_nosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dolofo_nosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4203DCA2A12B3DB00F9BA03 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D4203DCC2A12B42500F9BA03 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		D4203DCE2A12B46900F9BA03 /* RoundControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				D4203DA32A12B29500F9BA03 /* Assets.xcassets */,
 				D4203DA52A12B29500F9BA03 /* LaunchScreen.storyboard */,
 				D4203DA82A12B29500F9BA03 /* Info.plist */,
+				D4203DCA2A12B3DB00F9BA03 /* User.swift */,
+				D4203DCC2A12B42500F9BA03 /* Team.swift */,
+				D4203DCE2A12B46900F9BA03 /* RoundControl.swift */,
 			);
 			path = "dolofónos";
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4203D9F2A12B29300F9BA03 /* ViewController.swift in Sources */,
+				D4203DCB2A12B3DB00F9BA03 /* User.swift in Sources */,
+				D4203DCF2A12B46900F9BA03 /* RoundControl.swift in Sources */,
 				D4203D9B2A12B29300F9BA03 /* AppDelegate.swift in Sources */,
+				D4203DCD2A12B42500F9BA03 /* Team.swift in Sources */,
 				D4203D9D2A12B29300F9BA03 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
