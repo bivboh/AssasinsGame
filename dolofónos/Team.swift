@@ -1,15 +1,21 @@
-class Team {
-    var id: String
-    var name: String
-    var members: [User]
-    var target: Team?
-    var isAlive: Bool
-    
-    init(id: String, name: String, members: [User], target: Team?, isAlive: Bool) {
-        self.id = id
-        self.name = name
+import Foundation
+import CoreLocation
+
+class Team: Hashable {
+    let members: [String]
+    let location: [Double]
+
+    init(members: [String], location: [Double]) {
         self.members = members
-        self.target = target
-        self.isAlive = isAlive
+        self.location = location
+    }
+
+    static func == (lhs: Team, rhs: Team) -> Bool {
+        return lhs.members == rhs.members && lhs.location == rhs.location
+    }
+
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(members)
+        hasher.combine(location)
     }
 }
